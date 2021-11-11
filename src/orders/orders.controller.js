@@ -93,6 +93,7 @@ const read = (req, res, next) => {
   res.json({ data: res.locals.order });
 };
 
+
 //update
 const update = (req, res, next) => {
   let orderIndex = orders.index(res.locals.order);
